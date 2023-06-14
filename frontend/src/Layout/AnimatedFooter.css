@@ -1,0 +1,47 @@
+.animated-footer {
+  /* position: fixed; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+  color: #fff;
+  overflow: hidden;
+}
+
+.footer-content {
+  margin: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  animation: slide-in 0.5s forwards;
+  
+}
+
+.Footer_left-section {
+  margin-left: 5rem;
+}
+
+.Footer_ Footer_right-section {
+  display: flex;
+  align-items: center;
+  margin-right: 5rem;
+}
+.Footer_right-section button {
+ margin-left: 1rem;
+}
+.Footer_right-section button:hover {
+ margin-left: 1rem;
+ background-color: white;
+ color: black;
+ border-radius: 3px;
+ width: 5rem;
+ height: 2rem;
+}
+
+.Footer_reserved-rights {
+  font-size: 12px;
+}
+
+.social-media-links {
+}

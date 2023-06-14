@@ -1,0 +1,138 @@
+/* classic styles */
+.Courses_container {
+  /* max-width: 900px; */
+  width: 75vw;
+  margin: 0 auto;
+  padding: 20px;
+   
+
+}
+
+.CourseUper {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* margin-bottom: 20px; */
+}
+
+.input input {
+  padding: 3px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 30rem;
+  font-size: 12px;
+  box-shadow: 2px 2px 2px 1px rgb(157, 156, 156);
+  margin: .5rem 5rem .5rem 12rem ;
+  border-buttom: 1px solid black;
+  outline: none;
+  height: 2rem;
+  
+}
+
+.courseCategory {
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+
+
+
+.courseCategory_button {
+  background-color: rgb(199, 199, 199);
+  color: black;
+  margin-left: .9rem;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  min-width: 16rem;
+  min-height: 1rem;
+  transition: background-color 0.3s ease-out;
+}
+
+/* .courseCategory_button:hover {
+  background-color: #0052a3;
+} */
+
+.CourseBottm {
+  display: flex;
+  
+  
+  
+}
+.coursesList{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.homepage-course-card {
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  width: 15rem;
+  height: 20rem;
+}
+
+.homepage-course-card img {
+  width: 20vw;
+  height: 20vh;
+  object-fit: cover;
+}
+
+.homepage-course-card-details {
+  padding: 20px;
+}
+
+.homepage-course-card h3 {
+  font-size: 16px;
+  margin: 0 0 10px 0;
+}
+
+.homepage-course-card p {
+  font-size: 12px;
+  margin: 0 0 5px 0;
+}
+
+.homepage-button {
+  background-color: #0066cc;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 3px 3px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease-out;
+}
+
+.homepage-button:hover {
+  background-color: #0052a3;
+} 
+
+/* animated styles */
+
+.animate__animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

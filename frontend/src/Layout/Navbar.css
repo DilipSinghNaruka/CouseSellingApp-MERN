@@ -1,0 +1,100 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 30px;
+  position: relative;
+}
+
+.navbar-logo img {
+  height: 3rem;
+  width: 5rem;
+  border-radius:1rem ;
+  cursor: pointer;
+}
+
+.navbar-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 10px;
+  z-index: 10;
+  width: 15rem;
+  height: 100vh;
+  /* background-color: rgba(74, 174, 225, 0.919); */
+}
+
+.navbar-menu.active {
+  display: block;
+}
+
+.navbar-menu-item {
+  margin-bottom: 10px;
+  display: flex;
+  margin-left: 2rem;
+}
+
+.navbar-menu-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
+   
+}
+
+.navbar-toggle {
+  display: block;
+  cursor: pointer;
+}
+
+.navbar-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: #333;
+  margin-bottom: 4px;
+  border-radius: 2px;
+  transition: transform 0.3s ease-out;
+}
+
+.navbar-toggle span:last-child {
+  margin-bottom: 0;
+}
+
+.navbar-toggle.active span:first-child {
+  transform: translateY(6px) rotate(45deg);
+}
+
+.navbar-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.navbar-toggle.active span:last-child {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-link {
+  color: #333;
+  text-decoration: none;
+}
+.signuploginbtn {
+  margin-top: 20rem;
+}
+.signuploginbtn span {
+  margin: 1rem;
+  border: none;
+  background-color: #00bfa5;
+  color: #fff;
+  padding: 0.7rem;
+}
